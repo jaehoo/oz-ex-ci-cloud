@@ -1,0 +1,7 @@
+---
+jdk:
+  - openjdk8
+language: java
+notifications:
+  email:
+    - jaehoo@gmail.com

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.oz</groupId>
+    <artifactId>ci-services</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <company.name>Orbital Zero</company.name>
+        <company.website>http://jaehoo.wordpress.com</company.website>
+
+        <javadoc.copyright>
+            <![CDATA[ Copyright &#169; {inceptionYear}-{currentYear} <a href="${company.website}">${company.name}, Inc. </a>All Rights Reserved.]]>
+        </javadoc.copyright>
+
+    </properties>
+
+    <developers>
+        <developer>
+            <id>jaehoo</id>
+            <name>Alberto Sanchez</name>
+            <email>jaehoo@gmail.com</email>
+            <url>http://jaehoo.wordpress.com</url>
+            <organization>Orbital Zero</organization>
+            <organizationUrl>http://www.orbitalzero.com</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>America/Mexico</timezone>
+            <properties>
+                <picUrl>https://s.gravatar.com/avatar/9c12983ad5f5b31cfeb9d7a6ce39b07a?s=80</picUrl>
+            </properties>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
