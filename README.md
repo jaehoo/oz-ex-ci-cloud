@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jaehoo/oz-ex-ci-cloud.svg?branch=master)](https://travis-ci.org/jaehoo/oz-ex-ci-cloud) [![Coverage Status](https://coveralls.io/repos/github/jaehoo/oz-ex-ci-cloud/badge.svg)](https://coveralls.io/github/jaehoo/oz-ex-ci-cloud)
+[SonarCloud Analize Report](https://sonarcloud.io/dashboard?id=org.oz%3Aci-services)
 
 # Cloud CI server example
 
