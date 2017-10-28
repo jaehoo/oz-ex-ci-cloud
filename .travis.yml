@@ -1,6 +1,6 @@
 ---
 after_success:
-  - "mvn coveralls:report org.jacoco:jacoco-maven-plugin:prepare-agent"
+  - "mvn coveralls:report org.jacoco:jacoco-maven-plugin:prepare-agent  sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.organization=$SONAR_ORG -Dsonar.login=$SONAR_TOKEN"
 install:
   - "mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
 jdk:

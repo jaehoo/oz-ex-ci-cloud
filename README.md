@@ -8,7 +8,7 @@ This project is an example to show you how to integrate cthe next cloud services
  - Travis CI
  - Coveralls
  - Github
- - Sonarqube
+ - Sonarcloud (from Sonarqube)
 
 And this includes the JaCoCo test report.
 
