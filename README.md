@@ -17,7 +17,6 @@ And this includes the JaCoCo test report.
 - Java 1.8
 - Apache Maven > 3.0
 
-
 Credits
 -------
 
