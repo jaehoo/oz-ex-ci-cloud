@@ -78,6 +78,10 @@
                 <groupId>org.eluder.coveralls</groupId>
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.3.0</version>
+                <!-- Add your Coveralls Token here if you wnat test it from terminal-->
+                <!--<configuration>
+                    <repoToken>YOUR_REPO_TOKEN_HERE</repoToken>
+                </configuration>-->
             </plugin>
         </plugins>
     </build>
